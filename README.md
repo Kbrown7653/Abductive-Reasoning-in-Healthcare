@@ -3,7 +3,7 @@ Here in the README We can Notes Points to discuss, questions as well as notes on
 
 1/30/24 - Presentation and introduction to project. Established goals for the project and what the plan looks like moving forward. 
 
-# Minimal Viable Project Overview
+# Minimal Valuable Project Overview
 1. We must find a dataset that we will use
 	1. Ideally the dataset will have symptoms and diagnosis 
 	2. We will use the dataset to generate our hypothesis and method of evaluating our hypothesis 
@@ -18,4 +18,8 @@ Here in the README We can Notes Points to discuss, questions as well as notes on
 5. We  further do a column by column comparison saying why the disease is a good explanation or not for each symptom. 
 6. Conclude that the best explanation is the disease that is closest to the symptoms of the patient or a combination of non-mutually exclusive diseases. 
 	1. We modify this but it is meant to be the most naive version of our project 
-	2. We will begin without doing the combination of diseases 
+	2. We will begin without doing the combination of diseases
+7. Make a FLask api allow users to query our prediction system
+	1. We take in the symptoms as a map with an entry for each of our symptom columns
+ 	2. We output the set of possible ailments the user has according to our model
+8. We create a user interface to allow the users to interact in a user friendly manner 
