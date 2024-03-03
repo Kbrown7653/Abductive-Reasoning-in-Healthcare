@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 from scipy.spatial.distance import euclidean
 
-def give_prognosis_entire_df(sorted_prob_df,test_no_prog):
+def give_prognosis_entire_df(sorted_prob_df, test_no_prog):
     probability_df = sorted_prob_df
-    # for vector ops the columns must be the same and in same order
+    # for vector ops the columns must be the same and in the same order
     are_cols_same = list(test_no_prog.columns) == list(probability_df.columns)
     if are_cols_same:
         all_progs = []
@@ -38,26 +38,27 @@ def give_prognosis_entire_df(sorted_prob_df,test_no_prog):
         return "Invalid DataFrame's"
 
 
-def element_in_set(list_predicted_set,actual_element):
+def element_in_set(list_predicted_set, actual_element):
     assert (len(list_predicted_set) == len(actual_element))
     correct = 0
     for i in range(len(actual_element)):
         prog_set = set(list_predicted_set[i])
         if actual_element[i] in prog_set:
             correct += 1
-    return correct/len(actual_element)
+    accuracy = (correct / len(actual_element)) * 100  # Calculate accuracy as a percentage
+    return accuracy
 
 
-# df comes in sorted but for redundancy we sort again
-probability_df = pd.read_csv('Data/Training_Data_Vectors.csv',index_col=0)
+# df comes in sorted but for redundancy, we sort again
+probability_df = pd.read_csv('Data/Training_Data_Vectors.csv', index_col=0)
 sorted_prob_df = probability_df.sort_index(axis=1)
 
-# testing_Df to test the quality of out model
+# testing_Df to test the quality of our model
 test_df = pd.read_csv('Data/Testing.csv').sort_index(axis=1)
-test_no_prog = test_df.copy().drop(columns='prognosis',axis=1)
+test_no_prog = test_df.copy().drop(columns='prognosis', axis=1)
 
 progonsis_test_df_results = give_prognosis_entire_df(sorted_prob_df, test_no_prog)
 
 actual = list(test_df['prognosis'])
 
-print(f'Accuracy:\t{element_in_set(progonsis_test_df_results, actual)}\n\n Trials:\t{len(actual)}')
+print(f'Accuracy:\t{element_in_set(progonsis_test_df_results, actual):.2f}%\n\n Trials:\t{len(actual)}')

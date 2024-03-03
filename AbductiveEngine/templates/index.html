@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Diagnosis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Symptom Diagnosis System</h1>
+        
+        {% if result %}
+            <h2>Diagnosis Result</h2>
+            <p><strong>Name:</strong> {{ result[0].name }}</p>
+            <p><strong>Age:</strong> {{ result[0].age }}</p>
+            <p><strong>Symptoms:</strong> {{ ', '.join(result[0].symptoms) }}</p>
+            <ul>
+                {% for item in result %}
+                    <li>
+                        <strong>{{ item.condition }}:</strong> {{ item.probability }}
+                        <p><em>{{ item.definition }}</em></p>
+                        <p><strong>Treatment:</strong> {{ item.treatment }}</p>
+                        <p><strong>Medications:</strong> {{ ', '.join(item.medications) }}</p>
+                    </li>
+                {% endfor %}
+            </ul>
+
+            <!-- Add a stock image -->
+            <img src="{{ url_for('static', filename='stock_image.jpg') }}" alt="Stock Image">
+
+        {% else %}
+            <form action="/" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                
+                <label for="symptoms">Enter your symptoms (comma-separated):</label>
+                <input type="text" id="symptoms" name="symptoms" required>
+                <button type="submit">Diagnose</button>
+            </form>
+        {% endif %}
+    </div>
+</body>
+</html>

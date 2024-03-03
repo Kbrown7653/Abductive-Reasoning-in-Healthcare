@@ -1,0 +1,10 @@
+{
+    "Common Cold": ["runny nose", "sneezing", "cough"],
+    "Flu": ["fever", "body aches", "fatigue", "headache"],
+    "Allergy": ["itchy eyes", "nasal congestion", "sneezing"],
+    "COVID-19": ["fever", "cough", "shortness of breath", "loss of taste or smell"],
+    "Pneumonia": ["fever", "cough", "shortness of breath", "chest pain"],
+    "Strep Throat": ["sore throat", "fever", "headache", "swollen tonsils"],
+    "Gastroenteritis": ["nausea", "vomiting", "diarrhea", "abdominal pain"],
+    "Lyme Disease": ["fatigue", "headache", "muscle and joint aches", "fever"]
+}

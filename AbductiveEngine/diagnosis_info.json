@@ -1,0 +1,43 @@
+{
+    "Common Cold": {
+        "definition": "A viral infection affecting the upper respiratory tract.",
+        "treatment": "Rest, stay hydrated, over-the-counter cold medications.",
+        "medications": ["Acetaminophen", "Ibuprofen", "Decongestants"]
+    },
+    "Flu": {
+        "definition": "A contagious respiratory illness caused by influenza viruses.",
+        "treatment": "Rest, stay hydrated, antiviral medications.",
+        "medications": ["Oseltamivir", "Zanamivir", "Acetaminophen", "Ibuprofen"]
+    },
+    "Allergy": {
+        "definition": "An exaggerated immune response to substances that are generally not harmful.",
+        "treatment": "Avoid allergens, antihistamines.",
+        "medications": ["Cetirizine", "Loratadine", "Diphenhydramine"]
+    },
+    "COVID-19": {
+        "definition": "A respiratory illness caused by the SARS-CoV-2 virus.",
+        "treatment": "Isolation, supportive care, seek medical attention if severe symptoms.",
+        "medications": ["Antipyretics", "Analgesics", "Antiviral medications (as prescribed)"]
+    },
+    "Pneumonia": {
+        "definition": "An inflammatory condition affecting the lung tissue.",
+        "treatment": "Antibiotics, antiviral medications, oxygen therapy.",
+        "medications": ["Amoxicillin", "Azithromycin", "Oseltamivir", "Oxygen therapy"]
+    },
+    "Strep Throat": {
+        "definition": "A bacterial infection causing inflammation of the throat.",
+        "treatment": "Antibiotics, rest, pain relievers.",
+        "medications": ["Penicillin", "Amoxicillin", "Acetaminophen", "Ibuprofen"]
+    },
+    "Gastroenteritis": {
+        "definition": "Inflammation of the stomach and intestines, often caused by infection.",
+        "treatment": "Hydration, rest, anti-nausea medications.",
+        "medications": ["Ondansetron", "Loperamide", "Hydration solutions"]
+    },
+    "Lyme Disease": {
+        "definition": "An infectious disease transmitted through tick bites.",
+        "treatment": "Antibiotics, rest, pain relievers.",
+        "medications": ["Doxycycline", "Amoxicillin", "Ibuprofen"]
+    }
+}
+
