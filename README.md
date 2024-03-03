@@ -1,3 +1,5 @@
+# Article"
+https://bratanic-tomaz.medium.com/constructing-knowledge-graphs-from-text-using-openai-functions-096a6d010c17
 # Abductive-Reasoning-in-Healthcare
 Here in the README We can Notes Points to discuss, questions as well as notes on progress check
 
