@@ -1,5 +1,9 @@
-# Article"
+# Article and Research"
 https://bratanic-tomaz.medium.com/constructing-knowledge-graphs-from-text-using-openai-functions-096a6d010c17
+
+Link To Shared Research Document:
+https://docs.google.com/document/d/19q1fTSqnRNgdrKiL0f5uiZEiJC3vD_DfoRnni8Z1wt0/edit?usp=sharing
+
 # Abductive-Reasoning-in-Healthcare
 Here in the README We can Notes Points to discuss, questions as well as notes on progress check
 
