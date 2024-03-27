@@ -1,0 +1,79 @@
+{
+    "Heart Disease": {
+        "Chest Pain": 0.90,
+        "Shortness of Breath": 0.85,
+        "Fatigue": 0.80,
+        "Dizziness": 0.70,
+        "Nausea": 0.60
+    },
+    "Cancer": {
+        "Unexplained Weight Loss": 0.80,
+        "Fatigue": 0.75,
+        "Lump or Mass": 0.70,
+        "Persistent Cough": 0.65,
+        "Change in Bowel or Bladder Habits": 0.60
+    },
+    "Chronic Lower Respiratory Diseases (COPD)": {
+        "Chronic Cough": 0.90,
+        "Shortness of Breath": 0.85,
+        "Wheezing": 0.80,
+        "Chest Tightness": 0.75,
+        "Frequent Respiratory Infections": 0.70
+    },
+    "Stroke": {
+        "Sudden Weakness or Numbness": 0.95,
+        "Difficulty Speaking": 0.90,
+        "Vision Problems": 0.85,
+        "Severe Headache": 0.80,
+        "Loss of Balance or Coordination": 0.75
+    },
+    "Alzheimer's Disease and other Dementias": {
+        "Memory Loss": 0.95,
+        "Difficulty Performing Familiar Tasks": 0.90,
+        "Disorientation": 0.85,
+        "Difficulty Speaking": 0.80,
+        "Mood Changes": 0.75
+    },
+    "Diabetes": {
+        "Frequent Urination": 0.90,
+        "Increased Thirst": 0.85,
+        "Fatigue": 0.80,
+        "Blurry Vision": 0.75,
+        "Slow Healing Wounds": 0.70
+    },
+    "Hypertension (High Blood Pressure)": {
+        "Headache": 0.70,
+        "Fatigue": 0.65,
+        "Dizziness": 0.60,
+        "Chest Pain": 0.55,
+        "Shortness of Breath": 0.50
+    },
+    "Diabetes Mellitus (Type 2)": {
+        "Increased Thirst": 0.80,
+        "Frequent Urination": 0.75,
+        "Fatigue": 0.70,
+        "Blurry Vision": 0.65,
+        "Slow Healing Wounds": 0.60
+    },
+    "Coronary Artery Disease": {
+        "Chest Pain": 0.90,
+        "Shortness of Breath": 0.80,
+        "Fatigue": 0.75,
+        "Nausea": 0.70,
+        "Dizziness": 0.65
+    },
+    "Asthma": {
+        "Shortness of Breath": 0.95,
+        "Wheezing": 0.90,
+        "Cough": 0.85,
+        "Chest Tightness": 0.80,
+        "Fatigue": 0.75
+    },
+    "Depression": {
+        "Persistent Sadness": 0.90,
+        "Loss of Interest": 0.85,
+        "Changes in Appetite": 0.80,
+        "Sleep Disturbances": 0.75,
+        "Fatigue": 0.70
+    }
+}

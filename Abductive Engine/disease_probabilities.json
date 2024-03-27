@@ -1,0 +1,13 @@
+{
+    "Heart Disease": 0.48,
+    "Cancer": 0.006,
+    "Chronic Lower Respiratory Diseases (COPD)": 0.05,
+    "Stroke": 0.024,
+    "Alzheimer's Disease and other Dementias": 0.019,
+    "Diabetes": 0.105,
+    "Hypertension (High Blood Pressure)": 0.30,
+    "Diabetes Mellitus (Type 2)": 0.085,
+    "Coronary Artery Disease": 0.06,
+    "Asthma": 0.08,
+    "Depression": 0.044
+  }
